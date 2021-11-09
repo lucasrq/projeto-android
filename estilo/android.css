@@ -57,18 +57,21 @@ header p{
     padding-right: 10px;
     padding-left:10px ;
     text-shadow:2px 2px 0px black;
-    margin-bottom: 30PX;
+    margin-bottom:3PX;
 }
 nav{
     background-color: var(--cor5);
-    padding:10px;
+    padding-bottom:10px;
+    padding-left:20px;
     text-shadow:0px 7px 7px rgba(0, 0, 0, 0.295);
+    text-align:center;
 }
 nav a{
-    font-size:4px;
+    text-align: center;
     color: var(--cor1);
     padding:10px;
     margin-top:10px;
+    margin-bottom:10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration:0.5s;
@@ -77,8 +80,8 @@ nav a{
 nav >a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
-    border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    border-radius:10px;
+    padding: 4px;
 }
 main{
     min-width:300px;
