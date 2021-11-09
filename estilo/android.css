@@ -67,6 +67,7 @@ nav{
     text-align:center;
 }
 nav a{
+    font-size: 34px;
     text-align: center;
     color: var(--cor1);
     padding:10px;
