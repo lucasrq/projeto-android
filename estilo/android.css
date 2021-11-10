@@ -59,6 +59,9 @@ header p{
     text-shadow:2px 2px 0px black;
     padding-bottom:30px;
 }
+.fdp{
+    padding-top:14px;
+}
 nav{
     background-color: var(--cor5);
     padding:10px;
